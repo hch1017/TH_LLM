@@ -1,0 +1,79 @@
+PokerStars Hand #243388680999:  Hold'em No Limit ($0.02/$0.05 USD) - 2023/04/29 13:08:57 ET
+Table 'Aaltje III' 6-max Seat #6 is the button
+Seat 1: Phally19 ($5.66 in chips)
+Seat 2: mandalevos ($4.91 in chips)
+Seat 3: gefahrensucher ($5.51 in chips)
+Seat 4: asdf78 ($14.57 in chips)
+Seat 5: victorismyname ($5.13 in chips)
+Seat 6: 0bjective ($3.08 in chips)
+Phally19: posts small blind $0.02
+mandalevos: posts big blind $0.05
+*** HOLE CARDS ***
+gefahrensucher: calls $0.05
+asdf78: folds
+victorismyname: folds
+0bjective: folds
+Phally19: folds
+mandalevos: checks
+*** FLOP *** [4s Jh Ks]
+mandalevos: checks
+gefahrensucher: checks
+*** TURN *** [4s Jh Ks] [9d]
+mandalevos: checks
+gefahrensucher: checks
+*** RIVER *** [4s Jh Ks 9d] [8c]
+mandalevos: bets $0.09
+gefahrensucher: folds
+Uncalled bet ($0.09) returned to mandalevos
+mandalevos collected $0.12 from pot
+mandalevos: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [4s Jh Ks 9d 8c]
+Seat 1: Phally19 (small blind) folded before Flop
+Seat 2: mandalevos (big blind) collected ($0.12)
+Seat 3: gefahrensucher folded on the River
+Seat 4: asdf78 folded before Flop (didn't bet)
+Seat 5: victorismyname folded before Flop (didn't bet)
+Seat 6: 0bjective (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #243388705778:  Hold'em No Limit ($0.02/$0.05 USD) - 2023/04/29 13:10:17 ET
+Table 'Aaltje III' 6-max Seat #1 is the button
+Seat 1: Phally19 ($5.64 in chips)
+Seat 2: mandalevos ($4.98 in chips)
+Seat 3: gefahrensucher ($5.46 in chips)
+Seat 4: asdf78 ($14.57 in chips)
+Seat 5: victorismyname ($5.13 in chips)
+Seat 6: 0bjective ($3.08 in chips)
+mandalevos: posts small blind $0.02
+gefahrensucher: posts big blind $0.05
+*** HOLE CARDS ***
+asdf78: folds
+victorismyname: folds
+0bjective: folds
+Phally19: raises $0.10 to $0.15
+mandalevos: folds
+gefahrensucher: calls $0.10
+*** FLOP *** [9d Ac 6c]
+gefahrensucher: bets $0.05
+Phally19: calls $0.05
+*** TURN *** [9d Ac 6c] [7d]
+gefahrensucher: bets $0.05
+Phally19: calls $0.05
+*** RIVER *** [9d Ac 6c 7d] [8c]
+gefahrensucher: bets $0.50
+Phally19: calls $0.50
+*** SHOW DOWN ***
+gefahrensucher: shows [Kc 7c] (a flush, Ace high)
+Phally19: mucks hand
+gefahrensucher collected $1.44 from pot
+*** SUMMARY ***
+Total pot $1.52 | Rake $0.08
+Board [9d Ac 6c 7d 8c]
+Seat 1: Phally19 (button) mucked
+Seat 2: mandalevos (small blind) folded before Flop
+Seat 3: gefahrensucher (big blind) showed [Kc 7c] and won ($1.44) with a flush, Ace high
+Seat 4: asdf78 folded before Flop (didn't bet)
+Seat 5: victorismyname folded before Flop (didn't bet)
+Seat 6: 0bjective folded before Flop (didn't bet)

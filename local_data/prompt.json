@@ -1,0 +1,91 @@
+[{
+ "id": "243182812711_0_0",
+ "type": "2",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 3 is the button. Seat 2: Neckhugger ($1.76 in chips). Seat 3: CageyR ($5 in chips). Seat 4: ElGuasoncito ($5.20 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 4: posts small blind $0.02. Seat 5: posts big blind $0.05. Seat 9: folds. \n The question is: I am Seat 2, my hand is [Js Qd], the pot value is $0.07, what should I do?\n ",
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": "243182812711_0_1",
+ "type": "2",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 3 is the button. Seat 2: Neckhugger ($1.76 in chips). Seat 3: CageyR ($5 in chips). Seat 4: ElGuasoncito ($5.20 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 4: posts small blind $0.02. Seat 5: posts big blind $0.05. Seat 9: folds. Seat 2: raises $0.10 to $0.15. \n The question is: I am Seat 3, my hand is [Ah As], the pot value is $0.22, what should I do?\n ",
+ "from_gpt": " raises $0.37 to $0.52"
+},{
+ "id": "243182812711_0_2",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 3 is the button. Seat 2: Neckhugger ($1.76 in chips). Seat 3: CageyR ($5 in chips). Seat 4: ElGuasoncito ($5.20 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 4: posts small blind $0.02. Seat 5: posts big blind $0.05. Seat 9: folds. Seat 2: raises $0.10 to $0.15. Seat 3: raises $0.37 to $0.52. Seat 4: folds. Seat 5: folds. \n The question is: I am Seat 2, my hand is [Js Qd], the pot value is $0.74, what should I do?\n ",
+ "from_gpt": " calls $0.37"
+},{
+ "id": "243182812711_1_0",
+ "type": "2",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 3 is the button. Seat 2: Neckhugger ($1.76 in chips). Seat 3: CageyR ($5 in chips). Seat 4: ElGuasoncito ($5.20 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 4: posts small blind $0.02. Seat 5: posts big blind $0.05. Seat 9: folds. Seat 2: raises $0.10 to $0.15. Seat 3: raises $0.37 to $0.52. Seat 4: folds. Seat 5: folds. Seat 2: calls $0.37. \n FLOP: Qc Tc 6h. \n The question is: I am Seat 2, my hand is [Js Qd], the pot value is $1.11, what should I do?\n ",
+ "from_gpt": " bets $1.24 and is all-in"
+},{
+ "id": "243182812711_1_1",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 3 is the button. Seat 2: Neckhugger ($1.76 in chips). Seat 3: CageyR ($5 in chips). Seat 4: ElGuasoncito ($5.20 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 4: posts small blind $0.02. Seat 5: posts big blind $0.05. Seat 9: folds. Seat 2: raises $0.10 to $0.15. Seat 3: raises $0.37 to $0.52. Seat 4: folds. Seat 5: folds. Seat 2: calls $0.37. \n FLOP: Qc Tc 6h. Seat 2: bets $1.24 and is all-in. \n The question is: I am Seat 3, my hand is [Ah As], the pot value is $2.35, what should I do?\n ",
+ "from_gpt": " calls $1.24"
+},{
+ "id": "243182819600_0_0",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. \n The question is: I am Seat 4, my hand is [As 3c], the pot value is $0.07, what should I do?\n ",
+ "from_gpt": " calls $0.05"
+},{
+ "id": "243182819600_0_1",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. Seat 4: calls $0.05. Seat 5: folds. \n The question is: I am Seat 6, my hand is [4d Qd], the pot value is $0.12, what should I do?\n ",
+ "from_gpt": " checks"
+},{
+ "id": "243182819600_1_0",
+ "type": "2",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. Seat 4: calls $0.05. Seat 5: folds. Seat 6: checks. \n FLOP: 8d 3d 6c. \n The question is: I am Seat 6, my hand is [4d Qd], the pot value is $0.12, what should I do?\n ",
+ "from_gpt": " bets $0.06"
+},{
+ "id": "243182819600_1_1",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. Seat 4: calls $0.05. Seat 5: folds. Seat 6: checks. \n FLOP: 8d 3d 6c. Seat 6: bets $0.06. \n The question is: I am Seat 4, my hand is [As 3c], the pot value is $0.18, what should I do?\n ",
+ "from_gpt": " calls $0.06"
+},{
+ "id": "243182819600_2_0",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. Seat 4: calls $0.05. Seat 5: folds. Seat 6: checks. \n FLOP: 8d 3d 6c. Seat 6: bets $0.06. Seat 4: calls $0.06. \n TURN: 8d 3d 6c,7s. \n The question is: I am Seat 6, my hand is [4d Qd], the pot value is $0.24, what should I do?\n ",
+ "from_gpt": " checks"
+},{
+ "id": "243182819600_2_1",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. Seat 4: calls $0.05. Seat 5: folds. Seat 6: checks. \n FLOP: 8d 3d 6c. Seat 6: bets $0.06. Seat 4: calls $0.06. \n TURN: 8d 3d 6c,7s. Seat 6: checks. \n The question is: I am Seat 4, my hand is [As 3c], the pot value is $0.24, what should I do?\n ",
+ "from_gpt": " checks"
+},{
+ "id": "243182819600_3_0",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. Seat 4: calls $0.05. Seat 5: folds. Seat 6: checks. \n FLOP: 8d 3d 6c. Seat 6: bets $0.06. Seat 4: calls $0.06. \n TURN: 8d 3d 6c,7s. Seat 6: checks. Seat 4: checks. \n RIVER: 8d 3d 6c 7s,2h. \n The question is: I am Seat 6, my hand is [4d Qd], the pot value is $0.24, what should I do?\n ",
+ "from_gpt": " checks"
+},{
+ "id": "243182819600_3_1",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 4 is the button. Seat 3: CageyR ($6.68 in chips). Seat 4: ElGuasoncito ($5.18 in chips). Seat 5: filthy_10000 ($5 in chips). Seat 6: gizmondouk ($5 in chips). Seat 9: PokerKidDori ($5.84 in chips). \n PREFLOP: Seat 5: posts small blind $0.02. Seat 6: posts big blind $0.05. Seat 9: folds. Seat 3: folds. Seat 4: calls $0.05. Seat 5: folds. Seat 6: checks. \n FLOP: 8d 3d 6c. Seat 6: bets $0.06. Seat 4: calls $0.06. \n TURN: 8d 3d 6c,7s. Seat 6: checks. Seat 4: checks. \n RIVER: 8d 3d 6c 7s,2h. Seat 6: checks. \n The question is: I am Seat 4, my hand is [As 3c], the pot value is $0.24, what should I do?\n ",
+ "from_gpt": " checks"
+},{
+ "id": "243183209187_0_0",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 7 is the button. Seat 3: w3sby ($5.26 in chips). Seat 4: Supat162 ($5.25 in chips). Seat 6: gizmondouk ($5 in chips). Seat 7: PokerAleman ($17.32 in chips). Seat 8: GlossuRabban ($6.15 in chips). \n PREFLOP: Seat 8: posts small blind $0.02. Seat 3: posts big blind $0.05. Seat 4: folds. Seat 6: raises $0.10 to $0.15. Seat 7: folds. Seat 8: folds. \n The question is: I am Seat 3, my hand is [Js 9s], the pot value is $0.22, what should I do?\n ",
+ "from_gpt": " calls $0.10"
+},{
+ "id": "243183209187_1_0",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 7 is the button. Seat 3: w3sby ($5.26 in chips). Seat 4: Supat162 ($5.25 in chips). Seat 6: gizmondouk ($5 in chips). Seat 7: PokerAleman ($17.32 in chips). Seat 8: GlossuRabban ($6.15 in chips). \n PREFLOP: Seat 8: posts small blind $0.02. Seat 3: posts big blind $0.05. Seat 4: folds. Seat 6: raises $0.10 to $0.15. Seat 7: folds. Seat 8: folds. Seat 3: calls $0.10. \n FLOP: 2d Jd As. \n The question is: I am Seat 3, my hand is [Js 9s], the pot value is $0.32, what should I do?\n ",
+ "from_gpt": " checks"
+},{
+ "id": "243183209187_1_1",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 7 is the button. Seat 3: w3sby ($5.26 in chips). Seat 4: Supat162 ($5.25 in chips). Seat 6: gizmondouk ($5 in chips). Seat 7: PokerAleman ($17.32 in chips). Seat 8: GlossuRabban ($6.15 in chips). \n PREFLOP: Seat 8: posts small blind $0.02. Seat 3: posts big blind $0.05. Seat 4: folds. Seat 6: raises $0.10 to $0.15. Seat 7: folds. Seat 8: folds. Seat 3: calls $0.10. \n FLOP: 2d Jd As. Seat 3: checks. Seat 6: bets $0.20. \n The question is: I am Seat 3, my hand is [Js 9s], the pot value is $0.52, what should I do?\n ",
+ "from_gpt": " calls $0.20"
+},{
+ "id": "243183209187_2_0",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 7 is the button. Seat 3: w3sby ($5.26 in chips). Seat 4: Supat162 ($5.25 in chips). Seat 6: gizmondouk ($5 in chips). Seat 7: PokerAleman ($17.32 in chips). Seat 8: GlossuRabban ($6.15 in chips). \n PREFLOP: Seat 8: posts small blind $0.02. Seat 3: posts big blind $0.05. Seat 4: folds. Seat 6: raises $0.10 to $0.15. Seat 7: folds. Seat 8: folds. Seat 3: calls $0.10. \n FLOP: 2d Jd As. Seat 3: checks. Seat 6: bets $0.20. Seat 3: calls $0.20. \n TURN: 2d Jd As,Ts. \n The question is: I am Seat 3, my hand is [Js 9s], the pot value is $0.72, what should I do?\n ",
+ "from_gpt": " checks"
+},{
+ "id": "243183209187_3_0",
+ "type": "1",
+ "from_human": "Now I am playing not-limited Texas Holder. The situation is: \nPlayers: Seat 7 is the button. Seat 3: w3sby ($5.26 in chips). Seat 4: Supat162 ($5.25 in chips). Seat 6: gizmondouk ($5 in chips). Seat 7: PokerAleman ($17.32 in chips). Seat 8: GlossuRabban ($6.15 in chips). \n PREFLOP: Seat 8: posts small blind $0.02. Seat 3: posts big blind $0.05. Seat 4: folds. Seat 6: raises $0.10 to $0.15. Seat 7: folds. Seat 8: folds. Seat 3: calls $0.10. \n FLOP: 2d Jd As. Seat 3: checks. Seat 6: bets $0.20. Seat 3: calls $0.20. \n TURN: 2d Jd As,Ts. Seat 3: checks. Seat 6: checks. \n RIVER: 2d Jd As Ts,Ad. \n The question is: I am Seat 3, my hand is [Js 9s], the pot value is $0.72, what should I do?\n ",
+ "from_gpt": " checks"
+}]

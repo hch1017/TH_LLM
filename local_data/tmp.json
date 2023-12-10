@@ -1,0 +1,1195 @@
+[{
+ "id": 1,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '9', '2', '3']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.2]\nAction: []\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [1.71]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Ah', 'As']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.0]\nMy Action: []\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.37 to $0.52"
+},{
+ "id": 4,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '9', '2', '3']\nPublic cards: ['Qc' 'Tc' '6h' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [0.1]\nAction: [' raises $0.10 to $0.15', 'call', ' bets $1.24 and is all-in']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Ah', 'As']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pair']\nMy money: [4.85]\nMy Action: [' raises $0.37 to $0.52']\nThe pot value is [$2.35]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.85]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 26,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['8', '9', '1', '4', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 8 Hand: ['**', '**']\nMoney: [4.68]\nAction: []\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [3.89]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 1]\nMy hand: ['Tc', 'Td']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [25.78]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,25.78]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.93]\nAction: []\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.65]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 29,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['8', '9', '1', '4', '5']\nPublic cards: ['Qc' '4s' '4h' '**' '**']\nSeat 8 Hand: ['**', '**']\nMoney: [4.68]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [3.79]\nAction: ['call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 1]\nMy hand: ['Tc', 'Td']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['two pairs']\nMy money: [25.73]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,25.73]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.93]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.65]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.20"
+},{
+ "id": 32,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['8', '9', '1', '4', '5']\nPublic cards: ['Qc' '4s' '4h' 'Jd' '**']\nSeat 8 Hand: ['**', '**']\nMoney: [4.68]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [3.59]\nAction: ['call', 'check', 'call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 1]\nMy hand: ['Tc', 'Td']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['two pairs']\nMy money: [25.53]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.20']\nThe pot value is [$0.72]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,25.53]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.93]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.65]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.35"
+},{
+ "id": 35,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['8', '9', '1', '4', '5']\nPublic cards: ['Qc' '4s' '4h' 'Jd' '6c']\nSeat 8 Hand: ['**', '**']\nMoney: [4.68]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [3.24]\nAction: ['call', 'check', 'call', 'check', 'call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 1]\nMy hand: ['Tc', 'Td']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['two pairs']\nMy money: [25.18]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.20', ' bets $0.35']\nThe pot value is [$1.42]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,25.18]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.93]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.65]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 116,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '6', '7', '9']\nPublic cards: ['**' '**' '**' '**' '**']\nMy seat: [Seat 2]\nMy hand: ['Th', 'Ah']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.95]\nMy Action: []\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.95]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.43]\nAction: []\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.54]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 7 Hand: ['**', '**']\nMoney: [4.22]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [1.79]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 117,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '6', '7', '9']\nPublic cards: ['7h' '4h' '2h' '**' '**']\nMy seat: [Seat 2]\nMy hand: ['Th', 'Ah']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['flush']\nMy money: [3.82]\nMy Action: ['call']\nThe pot value is [$0.45]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.82]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.33]\nAction: ['call']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.54]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 7 Hand: ['**', '**']\nMoney: [4.22]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [1.79]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 119,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '6', '7', '9']\nPublic cards: ['7h' '4h' '2h' '**' '**']\nMy seat: [Seat 2]\nMy hand: ['Th', 'Ah']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['flush']\nMy money: [3.82]\nMy Action: ['call', 'check']\nThe pot value is [$0.67]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.82]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.33]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.54]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 7 Hand: ['**', '**']\nMoney: [4.22]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [1.57]\nAction: [' raises $0.10 to $0.15', ' bets $0.22']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 120,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '6', '7', '9']\nPublic cards: ['7h' '4h' '2h' 'Ks' '**']\nMy seat: [Seat 2]\nMy hand: ['Th', 'Ah']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.6]\nMy Action: ['call', 'check', 'call']\nThe pot value is [$0.89]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.6]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.33]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.54]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 7 Hand: ['**', '**']\nMoney: [4.22]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [1.57]\nAction: [' raises $0.10 to $0.15', ' bets $0.22']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.20"
+},{
+ "id": 122,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '6', '7', '9']\nPublic cards: ['7h' '4h' '2h' 'Ks' '**']\nMy seat: [Seat 2]\nMy hand: ['Th', 'Ah']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.4]\nMy Action: ['call', 'check', 'call', ' bets $0.20']\nThe pot value is [$1.92]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.4]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.33]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.54]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 7 Hand: ['**', '**']\nMoney: [4.22]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [1.37]\nAction: [' raises $0.10 to $0.15', ' bets $0.22', ' raises $0.63 to $0.83']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 123,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '6', '7', '9']\nPublic cards: ['7h' '4h' '2h' 'Ks' 'Qh']\nMy seat: [Seat 2]\nMy hand: ['Th', 'Ah']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [2.77]\nMy Action: ['call', 'check', 'call', ' bets $0.20', 'call']\nThe pot value is [$2.55]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.77]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.33]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.54]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 7 Hand: ['**', '**']\nMoney: [4.22]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [1.37]\nAction: [' raises $0.10 to $0.15', ' bets $0.22', ' raises $0.63 to $0.83']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 125,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '6', '7', '9']\nPublic cards: ['7h' '4h' '2h' 'Ks' 'Qh']\nMy seat: [Seat 2]\nMy hand: ['Th', 'Ah']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [2.77]\nMy Action: ['call', 'check', 'call', ' bets $0.20', 'call', 'check']\nThe pot value is [$3.19]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.77]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.33]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.54]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 7 Hand: ['**', '**']\nMoney: [4.22]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [0.73]\nAction: [' raises $0.10 to $0.15', ' bets $0.22', ' raises $0.63 to $0.83', ' bets $0.64 and is all-in']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 158,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '6', '8', '9']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qh', 'Kc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.5]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.5]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.59]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [3.77]\nAction: ['call']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 160,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '6', '8', '9']\nPublic cards: ['Jd' 'Js' 'Td' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qh', 'Kc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [3.45]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.37]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.45]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.59]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [3.67]\nAction: ['call', 'call']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 162,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '6', '8', '9']\nPublic cards: ['Jd' 'Js' 'Td' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qh', 'Kc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [3.45]\nMy Action: [' raises $0.10 to $0.15', 'check']\nThe pot value is [$0.53]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.45]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.59]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [3.51]\nAction: ['call', 'call', ' bets $0.16']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 163,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '6', '8', '9']\nPublic cards: ['Jd' 'Js' 'Td' '8h' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qh', 'Kc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [3.29]\nMy Action: [' raises $0.10 to $0.15', 'check', 'call']\nThe pot value is [$0.69]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.29]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.59]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [3.51]\nAction: ['call', 'call', ' bets $0.16']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 165,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '6', '8', '9']\nPublic cards: ['Jd' 'Js' 'Td' '8h' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qh', 'Kc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [3.29]\nMy Action: [' raises $0.10 to $0.15', 'check', 'call', 'check']\nThe pot value is [$1.1]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.29]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.59]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [3.1]\nAction: ['call', 'call', ' bets $0.16', ' bets $0.41']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 166,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '6', '8', '9']\nPublic cards: ['Jd' 'Js' 'Td' '8h' '5d']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qh', 'Kc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [2.88]\nMy Action: [' raises $0.10 to $0.15', 'check', 'call', 'check', 'call']\nThe pot value is [$1.51]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.88]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.59]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [3.1]\nAction: ['call', 'call', ' bets $0.16', ' bets $0.41']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 168,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '8', '9', '1', '2']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 7 Hand: ['**', '**']\nMoney: [5.11]\nAction: []\nDiscard: [False]\n\nSeat 8 Hand: ['**', '**']\nMoney: [4.4]\nAction: []\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['9c', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [2.76]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.76]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 171,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '8', '9', '1', '2']\nPublic cards: ['4h' '3s' 'As' '**' '**']\nSeat 7 Hand: ['**', '**']\nMoney: [5.11]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [4.4]\nAction: ['check', 'check']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['9c', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [2.71]\nMy Action: ['call']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.71]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.05"
+},{
+ "id": 174,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '8', '9', '1', '2']\nPublic cards: ['4h' '3s' 'As' 'Tc' '**']\nSeat 7 Hand: ['**', '**']\nMoney: [5.11]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [4.35]\nAction: ['check', 'check', 'call', 'check']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['9c', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [2.66]\nMy Action: ['call', ' bets $0.05']\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.66]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.10"
+},{
+ "id": 177,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '8', '9', '1', '2']\nPublic cards: ['4h' '3s' 'As' 'Tc' '4d']\nSeat 7 Hand: ['**', '**']\nMoney: [5.11]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [4.25]\nAction: ['check', 'check', 'call', 'check', 'call', 'check']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['9c', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [2.56]\nMy Action: ['call', ' bets $0.05', ' bets $0.10']\nThe pot value is [$0.42]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.56]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.15"
+},{
+ "id": 179,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '8', '9', '1', '2']\nPublic cards: ['4h' '3s' 'As' 'Tc' '4d']\nSeat 7 Hand: ['**', '**']\nMoney: [5.11]\nAction: ['fold']\nDiscard: [True]\n\nSeat 8 Hand: ['**', '**']\nMoney: [4.1]\nAction: ['check', 'check', 'call', 'check', 'call', 'check', ' raises $0.35 to $0.50']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['9c', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [2.41]\nMy Action: ['call', ' bets $0.05', ' bets $0.10', ' bets $0.15']\nThe pot value is [$1.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.41]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 260,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '9', '2', '4', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 7 Hand: ['**', '**']\nMoney: [8.91]\nAction: []\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [23.07]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.15]\nAction: ['call']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [2.74]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Kh', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.82]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.82]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 263,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '9', '2', '4', '5']\nPublic cards: ['7s' '4c' 'Kd' '**' '**']\nSeat 7 Hand: ['**', '**']\nMoney: [8.91]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [23.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.05]\nAction: ['call', 'call', 'check']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [2.74]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Kh', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.77]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.37]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.77]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 265,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '9', '2', '4', '5']\nPublic cards: ['7s' '4c' 'Kd' '4s' '**']\nSeat 7 Hand: ['**', '**']\nMoney: [8.91]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [23.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.0]\nAction: ['call', 'call', 'check', ' bets $0.05']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [2.74]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Kh', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [4.77]\nMy Action: [' raises $0.10 to $0.15', 'check']\nThe pot value is [$0.42]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.77]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.23 to $0.28"
+},{
+ "id": 268,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '9', '2', '4', '5']\nPublic cards: ['7s' '4c' 'Kd' '4s' 'Ac']\nSeat 7 Hand: ['**', '**']\nMoney: [8.91]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [23.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [2.32]\nAction: ['call', 'call', 'check', ' bets $0.05', 'call', ' bets $0.45']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [2.74]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Kh', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.72]\nMy Action: [' raises $0.10 to $0.15', 'check', ' raises $0.23 to $0.28']\nThe pot value is [$1.38]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.72]\n\n",
+"reject": 123,
+ "from_gpt": " raises $1.79 to $2.24"
+},{
+ "id": 270,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['7', '9', '2', '4', '5']\nPublic cards: ['7s' '4c' 'Kd' '4s' 'Ac']\nSeat 7 Hand: ['**', '**']\nMoney: [8.91]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [23.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [0.08]\nAction: ['call', 'call', 'check', ' bets $0.05', 'call', ' bets $0.45', ' raises $0.53 to $2.77 and is all-in']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [2.74]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Kh', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.27]\nMy Action: [' raises $0.10 to $0.15', 'check', ' raises $0.23 to $0.28', ' raises $1.79 to $2.24']\nThe pot value is [$6.39]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.27]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 271,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [1.83]\nAction: []\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: []\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['3s', 'Ah']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [5.19]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.19]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.05 to $0.10"
+},{
+ "id": 272,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['**' '**' '**' '**' '**']\nMy seat: [Seat 3]\nMy hand: ['Kh', 'Jd']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [1.83]\nMy Action: []\nThe pot value is [$0.17]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.83]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: []\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.14]\nAction: [' raises $0.05 to $0.10']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.05 to $0.15"
+},{
+ "id": 273,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [1.73]\nAction: [' raises $0.05 to $0.15']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['3s', 'Ah']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [5.14]\nMy Action: [' raises $0.05 to $0.10']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.14]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 274,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['3d' '5d' '5h' '**' '**']\nMy seat: [Seat 3]\nMy hand: ['Kh', 'Jd']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [1.73]\nMy Action: [' raises $0.05 to $0.15']\nThe pot value is [$0.37]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.73]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.09]\nAction: [' raises $0.05 to $0.10', 'call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.15"
+},{
+ "id": 275,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['3d' '5d' '5h' '**' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [1.58]\nAction: [' raises $0.05 to $0.15', ' bets $0.15']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['3s', 'Ah']\nMy hand is [\"'high'\"]\nRank: ['two pairs']\nMy money: [5.09]\nMy Action: [' raises $0.05 to $0.10', 'call']\nThe pot value is [$0.52]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.09]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 276,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['3d' '5d' '5h' 'Qc' '**']\nMy seat: [Seat 3]\nMy hand: ['Kh', 'Jd']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [1.58]\nMy Action: [' raises $0.05 to $0.15', ' bets $0.15']\nThe pot value is [$0.67]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.58]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.94]\nAction: [' raises $0.05 to $0.10', 'call', 'call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 277,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['3d' '5d' '5h' 'Qc' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [1.58]\nAction: [' raises $0.05 to $0.15', ' bets $0.15', 'check']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['3s', 'Ah']\nMy hand is [\"'high'\"]\nRank: ['two pairs']\nMy money: [4.94]\nMy Action: [' raises $0.05 to $0.10', 'call', 'call']\nThe pot value is [$0.67]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.94]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 278,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['3d' '5d' '5h' 'Qc' 'Ac']\nMy seat: [Seat 3]\nMy hand: ['Kh', 'Jd']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [1.58]\nMy Action: [' raises $0.05 to $0.15', ' bets $0.15', 'check']\nThe pot value is [$0.67]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.58]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.94]\nAction: [' raises $0.05 to $0.10', 'call', 'call', 'check']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 279,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '5', '9', '2']\nPublic cards: ['3d' '5d' '5h' 'Qc' 'Ac']\nSeat 3 Hand: ['**', '**']\nMoney: [1.58]\nAction: [' raises $0.05 to $0.15', ' bets $0.15', 'check', 'check']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['3s', 'Ah']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [4.94]\nMy Action: [' raises $0.05 to $0.10', 'call', 'call', 'check']\nThe pot value is [$0.67]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.94]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 280,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '1', '2', '3', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.75]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 2]\nMy hand: ['Ah', 'Ac']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.51]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.51]\n\nSeat 3 Hand: ['**', '**']\nMoney: [1.67]\nAction: []\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.05]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 281,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '1', '2', '3', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.75]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.46]\nAction: ['call']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['As', '5h']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [1.67]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.67]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.05]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 282,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '1', '2', '3', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Ah', 'Ac']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.46]\nMy Action: ['call']\nThe pot value is [$0.27]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.46]\n\nSeat 3 Hand: ['**', '**']\nMoney: [1.62]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.45 to $0.60"
+},{
+ "id": 283,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '1', '2', '3', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.31]\nAction: ['call', ' raises $0.45 to $0.60']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['As', '5h']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [1.62]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.87]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.62]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 284,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '1', '2', '3', '5']\nPublic cards: ['7s' '2h' '8h' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Ah', 'Ac']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pair']\nMy money: [5.31]\nMy Action: ['call', ' raises $0.45 to $0.60']\nThe pot value is [$1.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.31]\n\nSeat 3 Hand: ['**', '**']\nMoney: [1.17]\nAction: [' raises $0.10 to $0.15', 'call']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $1.22"
+},{
+ "id": 285,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '1', '2', '3', '5']\nPublic cards: ['7s' '2h' '8h' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.75]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.09]\nAction: ['call', ' raises $0.45 to $0.60', ' bets $1.22']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['As', '5h']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [1.17]\nMy Action: [' raises $0.10 to $0.15', 'call']\nThe pot value is [$2.54]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.17]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.05]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 286,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '5', '9']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [7.11]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['2d', 'Ad']\nMy hand is [\"'suit'\", \"'high'\"]\nRank: ['high card']\nMy money: [0.15]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,0.15]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.05]\nAction: []\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.73]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15 and is all-in"
+},{
+ "id": 289,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '9', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [6.98]\nAction: ['call']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['4c', '3c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['']\nMy money: [0.15]\nMy Action: []\nThe pot value is [$0.35]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,0.15]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.48]\nAction: [' raises $0.05 to $0.10']\nDiscard: [False]\n\nSeat 9 Hand: ['**', '**']\nMoney: [4.63]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.67]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.05 to $0.15 and is all-in"
+},{
+ "id": 303,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.58]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '9h']\nMy hand is [\"'close'\"]\nRank: ['']\nMy money: [6.86]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.86]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 304,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '5']\nPublic cards: ['Ad' '2c' 'Kh' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.58]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '9h']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [6.86]\nMy Action: ['check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.86]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 306,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '5']\nPublic cards: ['Ad' '2c' 'Kh' '6c' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.58]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '9h']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [6.86]\nMy Action: ['check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.86]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['call', 'check']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 308,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '5']\nPublic cards: ['Ad' '2c' 'Kh' '6c' 'Qs']\nSeat 9 Hand: ['**', '**']\nMoney: [4.58]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '9h']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [6.86]\nMy Action: ['check', 'check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.86]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['call', 'check', 'check']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 311,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '3']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.48]\nAction: ['call']\nDiscard: [False]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '4c']\nMy hand is [\"'close'\"]\nRank: ['']\nMy money: [6.76]\nMy Action: []\nThe pot value is [$0.15]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.76]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.11]\nAction: ['call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 313,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '3']\nPublic cards: ['8d' '6s' '2s' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.48]\nAction: ['call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '4c']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [6.76]\nMy Action: ['check']\nThe pot value is [$0.15]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.76]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.11]\nAction: ['call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 315,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '3']\nPublic cards: ['8d' '6s' '2s' '**' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.43]\nAction: ['call', 'check', 'call']\nDiscard: [False]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '4c']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [6.76]\nMy Action: ['check', 'check']\nThe pot value is [$0.25]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.76]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.06]\nAction: ['call', ' bets $0.05']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 317,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '3']\nPublic cards: ['8d' '6s' '2s' 'Ac' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.43]\nAction: ['call', 'check', 'call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '4c']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [6.71]\nMy Action: ['check', 'check', 'call']\nThe pot value is [$0.3]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.71]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.06]\nAction: ['call', ' bets $0.05']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 319,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '3']\nPublic cards: ['8d' '6s' '2s' 'Ac' '**']\nSeat 9 Hand: ['**', '**']\nMoney: [4.28]\nAction: ['call', 'check', 'call', 'check', 'call']\nDiscard: [False]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '4c']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [6.71]\nMy Action: ['check', 'check', 'call', 'check']\nThe pot value is [$0.6]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.71]\n\nSeat 3 Hand: ['**', '**']\nMoney: [1.91]\nAction: ['call', ' bets $0.05', ' bets $0.15']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 321,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['9', '2', '3']\nPublic cards: ['8d' '6s' '2s' 'Ac' '5h']\nSeat 9 Hand: ['**', '**']\nMoney: [4.28]\nAction: ['call', 'check', 'call', 'check', 'call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 2]\nMy hand: ['5s', '4c']\nMy hand is [\"'close'\"]\nRank: ['pair']\nMy money: [6.56]\nMy Action: ['check', 'check', 'call', 'check', 'call']\nThe pot value is [$0.75]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.56]\n\nSeat 3 Hand: ['**', '**']\nMoney: [1.91]\nAction: ['call', ' bets $0.05', ' bets $0.15']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 326,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [3.58]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.77]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2h', '2d']\nMy hand is [\"'pocket'\"]\nRank: ['pairs']\nMy money: [5.44]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.44]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 327,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['Ts' '2c' 'Kc' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [3.55]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.77]\nAction: ['check', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2h', '2d']\nMy hand is [\"'pocket'\"]\nRank: ['three of a kind']\nMy money: [5.39]\nMy Action: ['call']\nThe pot value is [$0.15]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.39]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 328,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['Ts' '2c' 'Kc' '8c' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [3.4]\nAction: ['call', 'check', ' bets $0.15']\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.77]\nAction: ['check', 'check', 'fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2h', '2d']\nMy hand is [\"'pocket'\"]\nRank: ['three of a kind']\nMy money: [5.39]\nMy Action: ['call', 'check']\nThe pot value is [$0.3]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.39]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 329,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['Ts' '2c' 'Kc' '8c' 'Td']\nSeat 5 Hand: ['**', '**']\nMoney: [2.95]\nAction: ['call', 'check', ' bets $0.15', ' bets $0.45']\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.77]\nAction: ['check', 'check', 'fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2h', '2d']\nMy hand is [\"'pocket'\"]\nRank: ['full house']\nMy money: [5.24]\nMy Action: ['call', 'check', 'call']\nThe pot value is [$0.9]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.24]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $1.33 to $1.78"
+},{
+ "id": 331,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nMy seat: [Seat 6]\nMy hand: ['As', '9d']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [2.72]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.72]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.55]\nAction: ['call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.05 to $0.10"
+},{
+ "id": 333,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['8h' 'Ac' '8d' '**' '**']\nMy seat: [Seat 6]\nMy hand: ['As', '9d']\nMy hand is [\"'high'\"]\nRank: ['two pairs']\nMy money: [2.67]\nMy Action: [' raises $0.05 to $0.10']\nThe pot value is [$0.27]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.67]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.5]\nAction: ['call', 'call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 335,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['8h' 'Ac' '8d' 'Qh' '**']\nMy seat: [Seat 6]\nMy hand: ['As', '9d']\nMy hand is [\"'high'\"]\nRank: ['two pairs']\nMy money: [2.67]\nMy Action: [' raises $0.05 to $0.10', 'check']\nThe pot value is [$0.27]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.67]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.5]\nAction: ['call', 'call', 'check']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 337,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['8h' 'Ac' '8d' 'Qh' '5s']\nMy seat: [Seat 6]\nMy hand: ['As', '9d']\nMy hand is [\"'high'\"]\nRank: ['two pairs']\nMy money: [2.67]\nMy Action: [' raises $0.05 to $0.10', 'check', 'check']\nThe pot value is [$0.27]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.67]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.5]\nAction: ['call', 'call', 'check', 'check']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.44"
+},{
+ "id": 339,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['8h' 'Ac' '8d' 'Qh' '5s']\nMy seat: [Seat 6]\nMy hand: ['As', '9d']\nMy hand is [\"'high'\"]\nRank: ['two pairs']\nMy money: [2.23]\nMy Action: [' raises $0.05 to $0.10', 'check', 'check', ' bets $0.44']\nThe pot value is [$2.21]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.23]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [1.06]\nAction: ['call', 'call', 'check', 'check', ' raises $1.06 to $1.50 and is all-in']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 340,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [3.14]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [1.12]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qc', 'Qh']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.28]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.28]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 341,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [3.14]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Js', '9h']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [1.12]\nMy Action: []\nThe pot value is [$0.67]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.12]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.23]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.85]\nAction: [' raises $0.30 to $0.45']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 342,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [3.14]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [0.72]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 2]\nMy hand: ['Qc', 'Qh']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.23]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$1.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.23]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.85]\nAction: [' raises $0.30 to $0.45']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $4.83 to $5.28 and is all-in"
+},{
+ "id": 343,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [3.14]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Js', '9h']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [0.72]\nMy Action: ['call']\nThe pot value is [$6.35]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,0.72]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.78]\nAction: [' raises $0.10 to $0.15', ' raises $4.83 to $5.28 and is all-in']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.85]\nAction: [' raises $0.30 to $0.45', 'fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 344,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.37]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['5h', '5c']\nMy hand is [\"'pocket'\"]\nRank: ['pairs']\nMy money: [5.0]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.47]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.07 to $0.12"
+},{
+ "id": 347,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '3', '4', '5', '6']\nPublic cards: ['8d' '2d' 'Qh' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.93]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.37]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['5h', '5c']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [4.95]\nMy Action: [' raises $0.07 to $0.12']\nThe pot value is [$0.26]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.95]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.47]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.13"
+},{
+ "id": 350,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '3', '4', '5', '6']\nPublic cards: ['8d' '2d' 'Qh' 'Kh' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['call', 'check', 'call', 'check']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.37]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['5h', '5c']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [4.82]\nMy Action: [' raises $0.07 to $0.12', ' bets $0.13']\nThe pot value is [$0.52]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.82]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.47]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 352,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '3', '4', '5', '6']\nPublic cards: ['8d' '2d' 'Qh' 'Kh' 'Qd']\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.8]\nAction: ['call', 'check', 'call', 'check', 'check']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.37]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['5h', '5c']\nMy hand is [\"'pocket'\"]\nRank: ['two pairs']\nMy money: [4.82]\nMy Action: [' raises $0.07 to $0.12', ' bets $0.13', 'check']\nThe pot value is [$0.52]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.82]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.47]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 353,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.95]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.56]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.25]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8d', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [2.61]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.61]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 355,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: [' raises $0.20 to $0.25']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.56]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.25]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8d', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [2.56]\nMy Action: ['call']\nThe pot value is [$0.37]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.56]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 357,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['7s' 'Qs' 'Ks' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.78]\nAction: [' raises $0.20 to $0.25', ' bets $0.17']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.56]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.25]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8d', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [2.36]\nMy Action: ['call', 'call']\nThe pot value is [$0.74]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.36]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 359,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['7s' 'Qs' 'Ks' 'Kd' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.16]\nAction: [' raises $0.20 to $0.25', ' bets $0.17', ' bets $0.62']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.56]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.25]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8d', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [2.19]\nMy Action: ['call', 'call', 'call']\nThe pot value is [$1.53]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.19]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.63 to $1.25"
+},{
+ "id": 361,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['7s' 'Qs' 'Ks' 'Kd' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [2.91]\nAction: [' raises $0.20 to $0.25', ' bets $0.17', ' bets $0.62', ' raises $3.33 to $4.58 and is all-in']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.56]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.25]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8d', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [1.57]\nMy Action: ['call', 'call', 'call', ' raises $0.63 to $1.25']\nThe pot value is [$7.36]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.57]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 362,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [2.0]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.15]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.46]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 4]\nMy hand: ['Jh', 'Jd']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.49]\nMy Action: []\nThe pot value is [$0.19]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.49]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.86]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.25 to $0.30"
+},{
+ "id": 363,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nMy seat: [Seat 6]\nMy hand: ['4c', '2c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['']\nMy money: [2.0]\nMy Action: []\nThe pot value is [$0.49]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.0]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.15]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.46]\nAction: []\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.44]\nAction: [' raises $0.25 to $0.30']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.86]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 364,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['4d' '2h' 'Kd' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [1.75]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.15]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.46]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Jh', 'Jd']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pair']\nMy money: [5.44]\nMy Action: [' raises $0.25 to $0.30']\nThe pot value is [$0.74]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.44]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.86]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.25"
+},{
+ "id": 365,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['4d' '2h' 'Kd' '**' '**']\nMy seat: [Seat 6]\nMy hand: ['4c', '2c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [1.75]\nMy Action: ['call']\nThe pot value is [$0.99]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.75]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.15]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.46]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.19]\nAction: [' raises $0.25 to $0.30', ' bets $0.25']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.86]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $1.21 to $1.46"
+},{
+ "id": 366,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['4d' '2h' 'Kd' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [1.5]\nAction: ['call', ' raises $1.21 to $1.46']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.15]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.46]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Jh', 'Jd']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pair']\nMy money: [5.19]\nMy Action: [' raises $0.25 to $0.30', ' bets $0.25']\nThe pot value is [$2.45]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.19]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.86]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $1.21 to $2.67"
+},{
+ "id": 367,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['4d' '2h' 'Kd' '**' '**']\nMy seat: [Seat 6]\nMy hand: ['4c', '2c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [1.5]\nMy Action: ['call', ' raises $1.21 to $1.46']\nThe pot value is [$5.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,1.5]\n\nSeat 1 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.15]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [7.46]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [3.73]\nAction: [' raises $0.25 to $0.30', ' bets $0.25', ' raises $1.21 to $2.67']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [4.86]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 393,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['9c', '8s']\nMy hand is [\"'close'\"]\nRank: ['']\nMy money: [4.0]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.0]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 394,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.0]\nAction: ['check']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['As', 'Ts']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [5.0]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.07 to $0.12"
+},{
+ "id": 395,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['9c', '8s']\nMy hand is [\"'close'\"]\nRank: ['']\nMy money: [4.0]\nMy Action: ['check']\nThe pot value is [$0.24]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.0]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.95]\nAction: [' raises $0.07 to $0.12']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 396,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['9c', '8s']\nMy hand is [\"'close'\"]\nRank: ['pair']\nMy money: [3.93]\nMy Action: ['check', 'call']\nThe pot value is [$0.31]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.93]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.95]\nAction: [' raises $0.07 to $0.12']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 397,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [3.93]\nAction: ['check', 'call', 'check']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['As', 'Ts']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.95]\nMy Action: [' raises $0.07 to $0.12']\nThe pot value is [$0.31]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.95]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.10"
+},{
+ "id": 398,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['9c', '8s']\nMy hand is [\"'close'\"]\nRank: ['pair']\nMy money: [3.93]\nMy Action: ['check', 'call', 'check']\nThe pot value is [$0.41]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.93]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.85]\nAction: [' raises $0.07 to $0.12', ' bets $0.10']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.20 to $0.30"
+},{
+ "id": 399,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [3.83]\nAction: ['check', 'call', 'check', ' raises $0.20 to $0.30']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['As', 'Ts']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.85]\nMy Action: [' raises $0.07 to $0.12', ' bets $0.10']\nThe pot value is [$0.71]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.85]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 400,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '5h' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['9c', '8s']\nMy hand is [\"'close'\"]\nRank: ['pair']\nMy money: [3.83]\nMy Action: ['check', 'call', 'check', ' raises $0.20 to $0.30']\nThe pot value is [$0.91]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.83]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.65]\nAction: [' raises $0.07 to $0.12', ' bets $0.10', 'call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.50"
+},{
+ "id": 401,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '5h' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [3.33]\nAction: ['check', 'call', 'check', ' raises $0.20 to $0.30', ' bets $0.50']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['As', 'Ts']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.65]\nMy Action: [' raises $0.07 to $0.12', ' bets $0.10', 'call']\nThe pot value is [$1.41]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.65]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 402,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '5h' 'Qd']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['9c', '8s']\nMy hand is [\"'close'\"]\nRank: ['pair']\nMy money: [3.33]\nMy Action: ['check', 'call', 'check', ' raises $0.20 to $0.30', ' bets $0.50']\nThe pot value is [$1.91]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.33]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.15]\nAction: [' raises $0.07 to $0.12', ' bets $0.10', 'call', 'call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 403,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Ah' '9d' '7s' '5h' 'Qd']\nSeat 1 Hand: ['**', '**']\nMoney: [7.74]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.61]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [3.33]\nAction: ['check', 'call', 'check', ' raises $0.20 to $0.30', ' bets $0.50', 'check']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['As', 'Ts']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.15]\nMy Action: [' raises $0.07 to $0.12', ' bets $0.10', 'call', 'call']\nThe pot value is [$1.91]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.15]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 404,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '3']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [3.61]\nAction: ['call']\nDiscard: [False]\n\nMy seat: [Seat 5]\nMy hand: ['Qs', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [5.0]\nMy Action: []\nThe pot value is [$0.35]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.86]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [7.57]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 405,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '3']\nPublic cards: ['3h' 'Kc' 'Qd' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [3.61]\nAction: ['call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 5]\nMy hand: ['Qs', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.9]\nMy Action: ['call']\nThe pot value is [$0.45]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.9]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.86]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [7.57]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 406,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '3']\nPublic cards: ['3h' 'Kc' 'Qd' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [3.61]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Qs', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.9]\nMy Action: ['call', 'check']\nThe pot value is [$0.59]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.9]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.72]\nAction: [' raises $0.10 to $0.15', ' bets $0.14']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [7.57]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 407,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '3']\nPublic cards: ['3h' 'Kc' 'Qd' '3s' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [3.61]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Qs', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [4.76]\nMy Action: ['call', 'check', 'call']\nThe pot value is [$0.73]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.76]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.72]\nAction: [' raises $0.10 to $0.15', ' bets $0.14']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [7.57]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 408,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '3']\nPublic cards: ['3h' 'Kc' 'Qd' '3s' '4d']\nSeat 4 Hand: ['**', '**']\nMoney: [3.61]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Qs', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [4.76]\nMy Action: ['call', 'check', 'call', 'check']\nThe pot value is [$0.73]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.76]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.72]\nAction: [' raises $0.10 to $0.15', ' bets $0.14', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [7.57]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 409,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.47]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Kd', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.76]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.76]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.39]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.55]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 410,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.47]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Kd', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.71]\nMy Action: ['call']\nThe pot value is [$0.24]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.71]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.5]\nAction: [' raises $0.07 to $0.12']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 411,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['2c' '4c' 'As' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.47]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Kd', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [3.64]\nMy Action: ['call', 'call']\nThe pot value is [$0.31]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.64]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.5]\nAction: [' raises $0.07 to $0.12']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 412,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['2c' '4c' 'As' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.47]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Kd', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [3.64]\nMy Action: ['call', 'call', 'check']\nThe pot value is [$0.41]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.64]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.4]\nAction: [' raises $0.07 to $0.12', ' bets $0.10']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.20 to $0.30"
+},{
+ "id": 413,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['2c' '4c' 'As' 'Ad' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.47]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Kd', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['three of a kind']\nMy money: [3.54]\nMy Action: ['call', 'call', 'check', ' raises $0.20 to $0.30']\nThe pot value is [$0.91]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.54]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [5.2]\nAction: [' raises $0.07 to $0.12', ' bets $0.10', 'call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.25"
+},{
+ "id": 414,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['2c' '4c' 'As' 'Ad' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [7.47]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Kd', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['three of a kind']\nMy money: [3.29]\nMy Action: ['call', 'call', 'check', ' raises $0.20 to $0.30', ' bets $0.25']\nThe pot value is [$1.66]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.29]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.95]\nAction: [' raises $0.07 to $0.12', ' bets $0.10', 'call', ' raises $0.25 to $0.50']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 415,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['2c' '4c' 'As' 'Ad' 'Qd']\nSeat 1 Hand: ['**', '**']\nMoney: [7.47]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['Kd', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['three of a kind']\nMy money: [3.04]\nMy Action: ['call', 'call', 'check', ' raises $0.20 to $0.30', ' bets $0.25', 'call']\nThe pot value is [$1.91]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.04]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.95]\nAction: [' raises $0.07 to $0.12', ' bets $0.10', 'call', ' raises $0.25 to $0.50']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.45"
+},{
+ "id": 425,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Ts', '5d']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [5.0]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 1 Hand: ['**', '**']\nMoney: [6.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [6.44]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.35]\nAction: ['call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 426,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['6d' 'Th' '9d' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Ts', '5d']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [5.0]\nMy Action: ['check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 1 Hand: ['**', '**']\nMoney: [6.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [6.44]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.35]\nAction: ['call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 427,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['6d' 'Th' '9d' '3h' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Ts', '5d']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [5.0]\nMy Action: ['check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 1 Hand: ['**', '**']\nMoney: [6.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [6.44]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.35]\nAction: ['call', 'check']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.06"
+},{
+ "id": 428,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['6d' 'Th' '9d' '3h' 'Js']\nSeat 5 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Ts', '5d']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [4.94]\nMy Action: ['check', 'check', ' bets $0.06']\nThe pot value is [$0.24]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.94]\n\nSeat 1 Hand: ['**', '**']\nMoney: [6.3]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [6.44]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.29]\nAction: ['call', 'check', 'call']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 437,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [4.97]\nAction: []\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.45]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 5]\nMy hand: ['Js', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [6.16]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.16]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.81]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.18]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 439,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['Td' '8s' 'Qh' '**' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [4.97]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.45]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Js', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [6.11]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.37]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.11]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.03]\nAction: ['call']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.18"
+},{
+ "id": 441,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['Td' '8s' 'Qh' '8d' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [4.97]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.45]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Js', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [5.93]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.18']\nThe pot value is [$0.73]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.93]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.85]\nAction: ['call', 'call']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 443,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['Td' '8s' 'Qh' '8d' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [4.97]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.45]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Js', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [5.93]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.18', 'check']\nThe pot value is [$1.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.93]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.36]\nAction: ['call', 'call', ' bets $0.49']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 444,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['Td' '8s' 'Qh' '8d' '6d']\nSeat 3 Hand: ['**', '**']\nMoney: [4.97]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.45]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Js', 'Qc']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [5.44]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.18', 'check', 'call']\nThe pot value is [$1.71]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.44]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.36]\nAction: ['call', 'call', ' bets $0.49']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 446,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [2.76]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.0]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['7d', 'Kd']\nMy hand is [\"'suit'\", \"'high'\"]\nRank: ['high card']\nMy money: [5.42]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.42]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 449,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['9d' '5d' '7s' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [2.63]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.9]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['7d', 'Kd']\nMy hand is [\"'suit'\", \"'high'\"]\nRank: ['pair']\nMy money: [5.37]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.45]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.37]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.22"
+},{
+ "id": 452,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['9d' '5d' '7s' '5s' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [2.41]\nAction: ['call', 'check', 'call', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.9]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['7d', 'Kd']\nMy hand is [\"'suit'\", \"'high'\"]\nRank: ['two pairs']\nMy money: [5.15]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.22']\nThe pot value is [$0.89]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.15]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 454,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4', '5']\nPublic cards: ['9d' '5d' '7s' '5s' '2h']\nSeat 6 Hand: ['**', '**']\nMoney: [1.98]\nAction: ['call', 'check', 'call', 'check', ' bets $0.43']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.9]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [3.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['7d', 'Kd']\nMy hand is [\"'suit'\", \"'high'\"]\nRank: ['two pairs']\nMy money: [5.15]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.22', 'check']\nThe pot value is [$1.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.15]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 459,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [3.3]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 4]\nMy hand: ['8d', '8h']\nMy hand is [\"'pocket'\"]\nRank: ['pairs']\nMy money: [6.3]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.3]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.12]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.83]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 460,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['3c' 'Qh' 'Jc' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [3.17]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['8d', '8h']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [6.25]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.35]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.25]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.12]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.83]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.11"
+},{
+ "id": 461,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['3c' 'Qh' 'Jc' 'Ks' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [3.06]\nAction: ['call', 'check', 'call', 'check']\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['8d', '8h']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [6.14]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.11']\nThe pot value is [$0.57]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.14]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.12]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.83]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 462,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['3c' 'Qh' 'Jc' 'Ks' '8c']\nSeat 2 Hand: ['**', '**']\nMoney: [3.06]\nAction: ['call', 'check', 'call', 'check', 'check']\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.95]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 4]\nMy hand: ['8d', '8h']\nMy hand is [\"'pocket'\"]\nRank: ['three of a kind']\nMy money: [6.14]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.11', 'check']\nThe pot value is [$0.57]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.14]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.36]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.12]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.83]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.41"
+},{
+ "id": 487,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.39]\nAction: [' raises $0.05 to $0.10']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [5.05]\nMy Action: []\nThe pot value is [$0.17]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.05]\n\nSeat 4 Hand: ['**', '**']\nMoney: [7.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.4]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.39]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 489,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '1']\nPublic cards: ['3s' '9h' 'Jc' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.29]\nAction: [' raises $0.05 to $0.10', ' bets $0.10']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [5.0]\nMy Action: ['call']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 4 Hand: ['**', '**']\nMoney: [7.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.4]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.39]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 491,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '1']\nPublic cards: ['3s' '9h' 'Jc' '7h' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.29]\nAction: [' raises $0.05 to $0.10', ' bets $0.10', 'check']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.9]\nMy Action: ['call', 'call']\nThe pot value is [$0.42]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.9]\n\nSeat 4 Hand: ['**', '**']\nMoney: [7.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.4]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.39]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.25"
+},{
+ "id": 494,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '1']\nPublic cards: ['3s' '9h' 'Jc' '7h' '2h']\nSeat 2 Hand: ['**', '**']\nMoney: [4.04]\nAction: [' raises $0.05 to $0.10', ' bets $0.10', 'check', 'call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Td']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.65]\nMy Action: ['call', 'call', ' bets $0.25']\nThe pot value is [$0.92]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.65]\n\nSeat 4 Hand: ['**', '**']\nMoney: [7.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.4]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.39]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.30"
+},{
+ "id": 496,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '3']\nPublic cards: ['**' '**' '**' '**' '**']\nMy seat: [Seat 4]\nMy hand: ['8h', 'Qh']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.95]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.95]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.02]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.43]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 498,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '3']\nPublic cards: ['6c' 'Ad' '5s' '**' '**']\nMy seat: [Seat 4]\nMy hand: ['8h', 'Qh']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.9]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.9]\n\nSeat 5 Hand: ['**', '**']\nMoney: [6.92]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.43]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.16"
+},{
+ "id": 500,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '3']\nPublic cards: ['6c' 'Ad' '5s' '5d' '**']\nMy seat: [Seat 4]\nMy hand: ['8h', 'Qh']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.74]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.16']\nThe pot value is [$0.64]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.74]\n\nSeat 5 Hand: ['**', '**']\nMoney: [6.76]\nAction: ['call', 'call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.43]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.44"
+},{
+ "id": 502,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '3']\nPublic cards: ['6c' 'Ad' '5s' '5d' '9c']\nMy seat: [Seat 4]\nMy hand: ['8h', 'Qh']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [4.3]\nMy Action: [' raises $0.10 to $0.15', ' bets $0.16', ' bets $0.44']\nThe pot value is [$1.52]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.3]\n\nSeat 5 Hand: ['**', '**']\nMoney: [6.32]\nAction: ['call', 'call', 'call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.43]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 504,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Ks', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [5.36]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.36]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 505,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.31]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nMy seat: [Seat 4]\nMy hand: ['Jd', 'Kd']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [5.0]\nMy Action: []\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.37 to $0.52"
+},{
+ "id": 506,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Ks', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [5.31]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.74]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.31]\n\nSeat 4 Hand: ['**', '**']\nMoney: [4.85]\nAction: [' raises $0.37 to $0.52']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.90 to $1.42"
+},{
+ "id": 507,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.79]\nAction: [' raises $0.10 to $0.15', ' raises $0.90 to $1.42']\nDiscard: [False]\n\nMy seat: [Seat 4]\nMy hand: ['Jd', 'Kd']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.85]\nMy Action: [' raises $0.37 to $0.52']\nThe pot value is [$2.16]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.85]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 508,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Tc' '7s' '3d' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Ks', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.79]\nMy Action: [' raises $0.10 to $0.15', ' raises $0.90 to $1.42']\nThe pot value is [$3.06]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.79]\n\nSeat 4 Hand: ['**', '**']\nMoney: [3.95]\nAction: [' raises $0.37 to $0.52', 'call']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.70"
+},{
+ "id": 509,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Tc' '7s' '3d' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.09]\nAction: [' raises $0.10 to $0.15', ' raises $0.90 to $1.42', ' bets $0.70']\nDiscard: [False]\n\nMy seat: [Seat 4]\nMy hand: ['Jd', 'Kd']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.95]\nMy Action: [' raises $0.37 to $0.52', 'call']\nThe pot value is [$3.76]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.95]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 510,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Tc' '7s' '3d' 'Jh' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Ks', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.09]\nMy Action: [' raises $0.10 to $0.15', ' raises $0.90 to $1.42', ' bets $0.70']\nThe pot value is [$4.46]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.09]\n\nSeat 4 Hand: ['**', '**']\nMoney: [3.25]\nAction: [' raises $0.37 to $0.52', 'call', 'call']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $1.03"
+},{
+ "id": 511,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Tc' '7s' '3d' 'Jh' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [3.06]\nAction: [' raises $0.10 to $0.15', ' raises $0.90 to $1.42', ' bets $0.70', ' bets $1.03']\nDiscard: [False]\n\nMy seat: [Seat 4]\nMy hand: ['Jd', 'Kd']\nMy hand is [\"'suit'\", \"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [3.25]\nMy Action: [' raises $0.37 to $0.52', 'call', 'call']\nThe pot value is [$5.49]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.25]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $1.85 to $2.88 and is all-in"
+},{
+ "id": 512,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['Tc' '7s' '3d' 'Jh' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [9.31]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Ks', 'Ad']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [3.06]\nMy Action: [' raises $0.10 to $0.15', ' raises $0.90 to $1.42', ' bets $0.70', ' bets $1.03']\nThe pot value is [$8.37]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,3.06]\n\nSeat 4 Hand: ['**', '**']\nMoney: [2.22]\nAction: [' raises $0.37 to $0.52', 'call', 'call', ' raises $1.85 to $2.88 and is all-in']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.84]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 513,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Js', '8c']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [6.25]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.25]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 514,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['7h', '4d']\nMy hand is [\"'close'\"]\nRank: ['']\nMy money: [5.0]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.2]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 515,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' 'Ks' '9h' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['7h', '4d']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [5.0]\nMy Action: ['check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.2]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 516,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' 'Ks' '9h' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['check', 'check']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Js', '8c']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [6.2]\nMy Action: ['call']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.2]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 517,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' 'Ks' '9h' '6s' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['7h', '4d']\nMy hand is [\"'close'\"]\nRank: ['pair']\nMy money: [5.0]\nMy Action: ['check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.2]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 518,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' 'Ks' '9h' '6s' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['check', 'check', 'check']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Js', '8c']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [6.2]\nMy Action: ['call', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.2]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 519,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' 'Ks' '9h' '6s' '5s']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['7h', '4d']\nMy hand is [\"'close'\"]\nRank: ['pair']\nMy money: [5.0]\nMy Action: ['check', 'check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.0]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [6.2]\nAction: ['call', 'check', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 520,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' 'Ks' '9h' '6s' '5s']\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['check', 'check', 'check', 'check']\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.26]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [8.13]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['Js', '8c']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [6.2]\nMy Action: ['call', 'check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.2]\n\nSeat 1 Hand: ['**', '**']\nMoney: [9.22]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 522,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [5.39]\nAction: []\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.48]\nAction: []\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.11]\nAction: [' raises $0.07 to $0.12']\nDiscard: [False]\n\nMy seat: [Seat 6]\nMy hand: ['Qs', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [7.37]\nMy Action: []\nThe pot value is [$0.19]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,7.37]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.78]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 524,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['2d' '4s' '3d' '**' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.48]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.11]\nAction: [' raises $0.07 to $0.12', 'check']\nDiscard: [False]\n\nMy seat: [Seat 6]\nMy hand: ['Qs', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [7.25]\nMy Action: ['call']\nThe pot value is [$0.31]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,7.25]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.78]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 526,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['2d' '4s' '3d' '4h' '**']\nSeat 3 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.48]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.11]\nAction: [' raises $0.07 to $0.12', 'check', 'check']\nDiscard: [False]\n\nMy seat: [Seat 6]\nMy hand: ['Qs', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [7.25]\nMy Action: ['call', 'check']\nThe pot value is [$0.31]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,7.25]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.78]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.05"
+},{
+ "id": 529,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['3', '4', '5', '6', '1', '2']\nPublic cards: ['2d' '4s' '3d' '4h' '9d']\nSeat 3 Hand: ['**', '**']\nMoney: [5.39]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.48]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [7.06]\nAction: [' raises $0.07 to $0.12', 'check', 'check', 'call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 6]\nMy hand: ['Qs', 'Ac']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [7.2]\nMy Action: ['call', 'check', ' bets $0.05']\nThe pot value is [$0.41]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,7.2]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.78]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 541,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [8.54]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [10.01]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [9.67]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8s', '7h']\nMy hand is [\"'close'\"]\nRank: ['']\nMy money: [6.44]\nMy Action: []\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.44]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 543,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [8.39]\nAction: [' raises $0.65 to $0.80']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [9.36]\nAction: [' raises $0.10 to $0.15', 'call']\nDiscard: [False]\n\nSeat 5 Hand: ['**', '**']\nMoney: [9.67]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8s', '7h']\nMy hand is [\"'close'\"]\nRank: ['']\nMy money: [6.29]\nMy Action: ['call']\nThe pot value is [$1.82]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,6.29]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 545,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3', '4', '5', '6']\nPublic cards: ['2c' 'Th' 'Jh' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [6.74]\nAction: [' raises $0.65 to $0.80', ' bets $1.65']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [9.36]\nAction: [' raises $0.10 to $0.15', 'call', 'fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [9.67]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 6]\nMy hand: ['8s', '7h']\nMy hand is [\"'close'\"]\nRank: ['high card']\nMy money: [5.64]\nMy Action: ['call', 'call']\nThe pot value is [$4.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.64]\n\n",
+"reject": 123,
+ "from_gpt": " raises $3.99 to $5.64 and is all-in"
+},{
+ "id": 551,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [13.45]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.73]\nAction: []\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['3h', 'As']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [5.88]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.88]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 554,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3']\nPublic cards: ['Ad' '9h' '8s' '**' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [13.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.63]\nAction: ['call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['3h', 'As']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [5.83]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.83]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 556,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3']\nPublic cards: ['Ad' '9h' '8s' 'Jc' '**']\nSeat 1 Hand: ['**', '**']\nMoney: [13.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.63]\nAction: ['call', 'check', 'check']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['3h', 'As']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [5.83]\nMy Action: [' raises $0.10 to $0.15', 'check']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.83]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.20"
+},{
+ "id": 559,
+ "type": "Instruction",
+ "from_human": "Player amount: [3]\nBlind value: [$0.02/$0.05]\nOrder: ['1', '2', '3']\nPublic cards: ['Ad' '9h' '8s' 'Jc' 'Ks']\nSeat 1 Hand: ['**', '**']\nMoney: [13.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.43]\nAction: ['call', 'check', 'check', 'call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['3h', 'As']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [5.63]\nMy Action: [' raises $0.10 to $0.15', 'check', ' bets $0.20']\nThe pot value is [$0.72]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.63]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 560,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [3.9]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.45]\nAction: []\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.36]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['8s', '7s']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['']\nMy money: [8.21]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,8.21]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 562,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [3.75]\nAction: [' raises $0.10 to $0.25']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.36]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['8s', '7s']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['']\nMy money: [8.16]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.47]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,8.16]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 564,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4']\nPublic cards: ['Td' '3s' '7c' '**' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [3.22]\nAction: [' raises $0.10 to $0.25', ' bets $0.53']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.36]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['8s', '7s']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['pair']\nMy money: [8.06]\nMy Action: [' raises $0.10 to $0.15', 'call']\nThe pot value is [$1.1]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,8.06]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 566,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4']\nPublic cards: ['Td' '3s' '7c' '3d' '**']\nSeat 6 Hand: ['**', '**']\nMoney: [3.02]\nAction: [' raises $0.10 to $0.25', ' bets $0.53', ' bets $0.20']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.36]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['8s', '7s']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [7.53]\nMy Action: [' raises $0.10 to $0.15', 'call', 'call']\nThe pot value is [$1.83]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,7.53]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 568,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['6', '1', '2', '3', '4']\nPublic cards: ['Td' '3s' '7c' '3d' 'Kc']\nSeat 6 Hand: ['**', '**']\nMoney: [3.02]\nAction: [' raises $0.10 to $0.25', ' bets $0.53', ' bets $0.20', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.45]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.36]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['8s', '7s']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['two pairs']\nMy money: [7.33]\nMy Action: [' raises $0.10 to $0.15', 'call', 'call', 'call']\nThe pot value is [$2.03]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,7.33]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 570,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.28]\nAction: ['call']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Ts']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [9.16]\nMy Action: []\nThe pot value is [$0.15]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.16]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.94]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.38]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 572,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '6', '1']\nPublic cards: ['Kh' '9d' '3h' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.28]\nAction: ['call', 'check']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Ts']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [9.16]\nMy Action: ['check']\nThe pot value is [$0.15]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.16]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.94]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.38]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 574,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '6', '1']\nPublic cards: ['Kh' '9d' '3h' '6c' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.21]\nAction: ['call', 'check', ' bets $0.07']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Ts']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['high card']\nMy money: [9.16]\nMy Action: ['check', 'check']\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.16]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.94]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.38]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 576,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '6', '1']\nPublic cards: ['Kh' '9d' '3h' '6c' 'Qd']\nSeat 2 Hand: ['**', '**']\nMoney: [4.21]\nAction: ['call', 'check', ' bets $0.07', 'check']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Ts']\nMy hand is [\"'high'\", \"'close'\"]\nRank: ['pair']\nMy money: [9.09]\nMy Action: ['check', 'check', 'call']\nThe pot value is [$0.29]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.09]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [2.94]\nAction: ['call', 'check', 'fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.38]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 590,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Jc', '5s']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [5.47]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.47]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.31]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.43]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 591,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' '4c' '3c' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Jc', '5s']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [5.47]\nMy Action: ['check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.47]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.31]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.43]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 593,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' '4c' '3c' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Jc', '5s']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [5.47]\nMy Action: ['check', 'check']\nThe pot value is [$0.17]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.47]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.26]\nAction: ['call', ' bets $0.05']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.43]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.25 to $0.30"
+},{
+ "id": 595,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' '4c' '3c' '6d' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Jc', '5s']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [5.42]\nMy Action: ['check', 'check', ' raises $0.25 to $0.30']\nThe pot value is [$0.72]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.42]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.01]\nAction: ['call', ' bets $0.05', 'call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.43]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 597,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6c' '4c' '3c' '6d' 'Th']\nSeat 2 Hand: ['**', '**']\nMoney: [4.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['Jc', '5s']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [5.42]\nMy Action: ['check', 'check', ' raises $0.25 to $0.30', 'check']\nThe pot value is [$0.72]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.42]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.07]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.01]\nAction: ['call', ' bets $0.05', 'call', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.43]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 618,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '2', '3']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.02]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['8c', '8d']\nMy hand is [\"'pocket'\"]\nRank: ['pairs']\nMy money: [5.19]\nMy Action: []\nThe pot value is [$0.21]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.19]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.21]\nAction: [' raises $0.09 to $0.14']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.06]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.03]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 619,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '2', '3']\nPublic cards: ['Jh' '5h' '4s' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.02]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['8c', '8d']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [5.1]\nMy Action: ['call']\nThe pot value is [$0.3]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.1]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.21]\nAction: [' raises $0.09 to $0.14']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.06]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.03]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 620,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '2', '3']\nPublic cards: ['Jh' '5h' '4s' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.02]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['8c', '8d']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [5.1]\nMy Action: ['call', 'check']\nThe pot value is [$0.43]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.1]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.08]\nAction: [' raises $0.09 to $0.14', ' bets $0.13']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.06]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.03]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 621,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '2', '3']\nPublic cards: ['Jh' '5h' '4s' '3h' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.02]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['8c', '8d']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [4.97]\nMy Action: ['call', 'check', 'call']\nThe pot value is [$0.56]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.97]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.08]\nAction: [' raises $0.09 to $0.14', ' bets $0.13']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.06]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.03]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 622,
+ "type": "Instruction",
+ "from_human": "Player amount: [5]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '1', '2', '3']\nPublic cards: ['Jh' '5h' '4s' '3h' 'Qd']\nSeat 4 Hand: ['**', '**']\nMoney: [5.02]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['8c', '8d']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [4.97]\nMy Action: ['call', 'check', 'call', 'check']\nThe pot value is [$0.56]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.97]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.08]\nAction: [' raises $0.09 to $0.14', ' bets $0.13', 'check']\nDiscard: [False]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.06]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.03]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 628,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.21]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['4s', '4h']\nMy hand is [\"'pocket'\"]\nRank: ['pairs']\nMy money: [4.76]\nMy Action: []\nThe pot value is [$0.17]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.76]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.74]\nAction: [' raises $0.05 to $0.10']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [12.44]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 629,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6h' '7c' '5s' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.21]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['4s', '4h']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [4.71]\nMy Action: ['call']\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.71]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.74]\nAction: [' raises $0.05 to $0.10']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [12.44]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 630,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6h' '7c' '5s' '3s' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [5.21]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['4s', '4h']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [4.71]\nMy Action: ['call', 'check']\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.71]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.74]\nAction: [' raises $0.05 to $0.10', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [12.44]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 631,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['6h' '7c' '5s' '3s' 'Th']\nSeat 2 Hand: ['**', '**']\nMoney: [5.21]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['4s', '4h']\nMy hand is [\"'pocket'\"]\nRank: ['pair']\nMy money: [4.71]\nMy Action: ['call', 'check', 'check']\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.71]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.74]\nAction: [' raises $0.05 to $0.10', 'check', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [12.44]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.14"
+},{
+ "id": 632,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.81]\nAction: []\nDiscard: [False]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.82]\nAction: []\nDiscard: [False]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['9c', '8c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['']\nMy money: [5.17]\nMy Action: []\nThe pot value is [$0.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.17]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.72]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [12.29]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.10 to $0.15"
+},{
+ "id": 634,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.82]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['9c', '8c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['']\nMy money: [5.12]\nMy Action: [' raises $0.10 to $0.15']\nThe pot value is [$0.67]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.12]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.72]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [12.14]\nAction: [' raises $0.30 to $0.45']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 635,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['Ac' '7c' 'Qs' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.82]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['9c', '8c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.82]\nMy Action: [' raises $0.10 to $0.15', 'call']\nThe pot value is [$0.97]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.82]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.72]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [12.14]\nAction: [' raises $0.30 to $0.45']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 637,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['Ac' '7c' 'Qs' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.82]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['9c', '8c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.82]\nMy Action: [' raises $0.10 to $0.15', 'call', 'check']\nThe pot value is [$1.62]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.82]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.72]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [11.49]\nAction: [' raises $0.30 to $0.45', ' bets $0.65']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $2.23 to $2.88"
+},{
+ "id": 639,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '4', '5', '6', '1']\nPublic cards: ['Ac' '7c' 'Qs' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [4.81]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [4.82]\nAction: ['fold']\nDiscard: [True]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.27]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['9c', '8c']\nMy hand is [\"'suit'\", \"'close'\"]\nRank: ['high card']\nMy money: [4.17]\nMy Action: [' raises $0.10 to $0.15', 'call', 'check', ' raises $2.23 to $2.88']\nThe pot value is [$14.07]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.17]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.72]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [8.61]\nAction: [' raises $0.30 to $0.45', ' bets $0.65', ' raises $6.69 to $9.57']\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 641,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '2', '3']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.28]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Ts', '3c']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [9.76]\nMy Action: []\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.76]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.88]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [13.68]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 642,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '2', '3']\nPublic cards: ['Kc' '9c' '5d' '**' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.28]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Ts', '3c']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [9.76]\nMy Action: ['check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.76]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.88]\nAction: ['call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [13.68]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 644,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '2', '3']\nPublic cards: ['Kc' '9c' '5d' '4c' '**']\nSeat 4 Hand: ['**', '**']\nMoney: [5.28]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Ts', '3c']\nMy hand is [\"'high'\"]\nRank: ['high card']\nMy money: [9.76]\nMy Action: ['check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.76]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.88]\nAction: ['call', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [13.68]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 646,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['4', '5', '6', '1', '2', '3']\nPublic cards: ['Kc' '9c' '5d' '4c' '4s']\nSeat 4 Hand: ['**', '**']\nMoney: [5.28]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 5]\nMy hand: ['Ts', '3c']\nMy hand is [\"'high'\"]\nRank: ['pair']\nMy money: [9.76]\nMy Action: ['check', 'check', 'check']\nThe pot value is [$0.12]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,9.76]\n\nSeat 6 Hand: ['**', '**']\nMoney: [4.88]\nAction: ['call', 'check', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [13.68]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.69]\nAction: ['fold']\nDiscard: [True]\n\nSeat 3 Hand: ['**', '**']\nMoney: [5.2]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 663,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [9.97]\nAction: []\nDiscard: [False]\n\nSeat 6 Hand: ['**', '**']\nMoney: [8.04]\nAction: []\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.15]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.62]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Qh']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.2]\nMy Action: []\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.2]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: []\nDiscard: [False]\n\n",
+"reject": 123,
+ "from_gpt": " raises $0.30 to $0.45"
+},{
+ "id": 665,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [9.97]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [8.04]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.15]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [4.17]\nAction: [' raises $0.10 to $0.15', ' raises $0.85 to $1.30']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Qh']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['pairs']\nMy money: [5.05]\nMy Action: [' raises $0.30 to $0.45']\nThe pot value is [$1.97]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,5.05]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 667,
+ "type": "Instruction",
+ "from_human": "Player amount: [6]\nBlind value: [$0.02/$0.05]\nOrder: ['5', '6', '1', '2', '3', '4']\nPublic cards: ['Kh' '8d' 'Kc' '**' '**']\nSeat 5 Hand: ['**', '**']\nMoney: [9.97]\nAction: ['fold']\nDiscard: [True]\n\nSeat 6 Hand: ['**', '**']\nMoney: [8.04]\nAction: ['fold']\nDiscard: [True]\n\nSeat 1 Hand: ['**', '**']\nMoney: [10.15]\nAction: ['fold']\nDiscard: [True]\n\nSeat 2 Hand: ['**', '**']\nMoney: [0.8]\nAction: [' raises $0.10 to $0.15', ' raises $0.85 to $1.30', ' bets $3.37 and is all-in']\nDiscard: [False]\n\nMy seat: [Seat 3]\nMy hand: ['Qc', 'Qh']\nMy hand is [\"'pocket'\", \"'high'\"]\nRank: ['two pairs']\nMy money: [4.2]\nMy Action: [' raises $0.30 to $0.45', 'call']\nThe pot value is [$6.19]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,4.2]\n\nSeat 4 Hand: ['**', '**']\nMoney: [5.0]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 688,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '1']\nPublic cards: ['**' '**' '**' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [3.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2c', '8d']\nMy hand is ['bad']\nRank: ['']\nMy money: [2.57]\nMy Action: []\nThe pot value is [$0.22]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.57]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.22]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [4.5]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "call"
+},{
+ "id": 689,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '1']\nPublic cards: ['Td' 'Kd' '4d' '**' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [3.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2c', '8d']\nMy hand is ['bad']\nRank: ['high card']\nMy money: [2.47]\nMy Action: ['call']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.47]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.22]\nAction: [' raises $0.10 to $0.15']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [4.5]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+},{
+ "id": 691,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '1']\nPublic cards: ['Td' 'Kd' '4d' '2s' '**']\nSeat 2 Hand: ['**', '**']\nMoney: [3.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2c', '8d']\nMy hand is ['bad']\nRank: ['pair']\nMy money: [2.47]\nMy Action: ['call', 'check']\nThe pot value is [$0.32]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.47]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.22]\nAction: [' raises $0.10 to $0.15', 'check']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [4.5]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": " bets $0.10"
+},{
+ "id": 693,
+ "type": "Instruction",
+ "from_human": "Player amount: [4]\nBlind value: [$0.02/$0.05]\nOrder: ['2', '3', '5', '1']\nPublic cards: ['Td' 'Kd' '4d' '2s' '7h']\nSeat 2 Hand: ['**', '**']\nMoney: [3.98]\nAction: ['fold']\nDiscard: [True]\n\nMy seat: [Seat 3]\nMy hand: ['2c', '8d']\nMy hand is ['bad']\nRank: ['pair']\nMy money: [2.37]\nMy Action: ['call', 'check', ' bets $0.10']\nThe pot value is [$0.52]\nThe choices contain: ['fold', 'check', 'bet', 'raise', 'call'], what should I do?\nIf I choose to 'bet' or 'raise', then how much? Give a positive floating point number between (0,2.37]\n\nSeat 5 Hand: ['**', '**']\nMoney: [5.12]\nAction: [' raises $0.10 to $0.15', 'check', 'call']\nDiscard: [False]\n\nSeat 1 Hand: ['**', '**']\nMoney: [4.5]\nAction: ['fold']\nDiscard: [True]\n\n",
+"reject": 123,
+ "from_gpt": "check"
+}]
