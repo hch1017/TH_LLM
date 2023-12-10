@@ -21,7 +21,7 @@ The general steps are:
    
 2. Fine-tuning in applications/DeepSpeed-Chat/Training
    Supervised fine-tuning -> reward modeling -> RLHF
-   More operations on alternate pre-trained models and hyperparameter tuning can be referred in 
+   More operations on alternate pre-trained models and hyperparameter tuning can be referred in:
+      https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat
 
-
-Due to the data privacy, we have not released our data yet.
+Due to our privacy, we have not released our data and model yet.
