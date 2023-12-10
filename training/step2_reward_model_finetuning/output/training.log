@@ -1,0 +1,29 @@
+[2023-07-13 05:24:50,680] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-07-13 05:24:51,108] [WARNING] [runner.py:196:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2023-07-13 05:24:51,158] [INFO] [runner.py:555:main] cmd = /root/anaconda3/envs/deepspeed3.8/bin/python -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMV19 --master_addr=127.0.0.1 --master_port=7010 --enable_each_rank_log=None main.py --data_path Local/TH_entire_random --model_name_or_path facebook/opt-350m --num_padding_at_beginning 1 --weight_decay 0.1 --disable_dropout --gradient_accumulation_steps 4 --zero_stage 0 --deepspeed --output_dir ./output
+[2023-07-13 05:24:52,677] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-07-13 05:24:53,099] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [1]}
+[2023-07-13 05:24:53,100] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=1, node_rank=0
+[2023-07-13 05:24:53,100] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0]})
+[2023-07-13 05:24:53,100] [INFO] [launch.py:163:main] dist_world_size=1
+[2023-07-13 05:24:53,100] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=1
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from transformers import (
+  File "/root/anaconda3/envs/deepspeed3.8/lib/python3.8/site-packages/transformers/__init__.py", line 26, in <module>
+    from . import dependency_versions_check
+  File "/root/anaconda3/envs/deepspeed3.8/lib/python3.8/site-packages/transformers/dependency_versions_check.py", line 17, in <module>
+[2023-07-13 05:24:54,584] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 46011
+[2023-07-13 05:24:54,679] [INFO] [launch.py:324:sigkill_handler] Main process received SIGINT, exiting
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/deepspeed3.8/bin/deepspeed", line 6, in <module>
+    main()
+  File "/root/anaconda3/envs/deepspeed3.8/lib/python3.8/site-packages/deepspeed/launcher/runner.py", line 570, in main
+    result.wait()
+  File "/root/anaconda3/envs/deepspeed3.8/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/root/anaconda3/envs/deepspeed3.8/lib/python3.8/subprocess.py", line 1806, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/root/anaconda3/envs/deepspeed3.8/lib/python3.8/subprocess.py", line 1764, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
