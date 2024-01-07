@@ -24,4 +24,5 @@ The general steps are:
    More operations on alternate pre-trained models and hyperparameter tuning can be referred in:
       https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat
 
+   Also, you should **overwrite the "training" folder of the original DeepSpeed-Chat pipeline.**
 Due to our privacy, we have not released our data and model yet.
